@@ -6,6 +6,7 @@ body,
 html, 
 .body {
   background: #f3f3f3 !important;
+  margin-bottom: 30px;;
 }
 .columns {
   padding-left: 0 !important;
@@ -120,6 +121,8 @@ html,
 }
 
 .linky {
+    background-color: #f3f3f3 !important;
+
   color: #010101 !important;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -129,7 +132,7 @@ html,
   font-size: 12px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin-bottom: 0;
+
 }
 
 .border-line {
@@ -197,8 +200,11 @@ span {
 }
 
 .last-boi {
-  margin-top: 50px;;
-  margin-bottom: 70px !important;
+  background: #f3f3f3 !important;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   a {
     font-weight: 400;
   }
@@ -221,7 +227,8 @@ span {
   padding-top: 60px !important;
 }
 
-  // img {
-  //   width: 20px !important;
-  //   height: 20px !important;
-  // }
+.last-roi {
+  background: #f3f3f3 !important;
+
+  margin-bottom: 40px !important;
+}
