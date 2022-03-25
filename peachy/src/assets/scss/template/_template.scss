@@ -7,53 +7,117 @@ html,
 .body {
   background: #f3f3f3 !important;
 }
-
-.container.header {
-  background: #f3f3f3;
+.columns {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #eeedea;
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
+.dark {
+
+  background-color: #010101 !important;
+
 }
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
+.get-yours {
+  width: 110px;
+  font-size: 13px;
+  text-align: center;
+  color: #010101 !important;
+  letter-spacing: 2px;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #ff9e81;
+  border-radius: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.header .columns {
+.merch-btn {
+  width: 200px;
+  font-size: 13px;
+  text-align: center;
+  color: #010101 !important;
+  letter-spacing: 2px;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #ff9e81;
+  border-radius: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo-img {
+  width: 400px !important;
+  padding-top: 100px;
+}
+
+.watch-img {
+  padding-top: 50px;;
+}
+
+.fuzzy-text {
+  color: #010101 !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  hyphens: none;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.ava-text {
+  color: #eeedea !important;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  hyphens: none;
+
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.main-image {
   padding-bottom: 0;
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
+.columns a {
+  margin-bottom: 90px;;
+}
+.gear {
+  background-color: #f3f3f3 !important;
 }
 
-.header .wrapper-inner {
-  padding: 20px;
+.gear-logo {
+  width:300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
-.header .container {
-  background: transparent;
+.gear-text {
+  color: #010101 !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  hyphens: none;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 3px;
 }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
+.columns p:last-of-type {
+  padding-bottom: 50px !important;
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
 }
